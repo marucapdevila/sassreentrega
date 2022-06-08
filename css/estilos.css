@@ -1,0 +1,67 @@
+/* line 2, ../../../OneDrive/Escritorio/sassreentrega/scss/_cabecera.scss */
+header h1 {
+  color: yellowgreen;
+  background-color: aqua;
+}
+
+/* line 2, ../../../OneDrive/Escritorio/sassreentrega/scss/_sass2.scss */
+header {
+  width: 1440px;
+}
+
+/* line 6, ../../../OneDrive/Escritorio/sassreentrega/scss/_sass2.scss */
+.extend h2, .extend2 h2 {
+  color: orange;
+  background-color: gold;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* line 11, ../../../OneDrive/Escritorio/sassreentrega/scss/_sass2.scss */
+.extend h2 p, .extend2 h2 p {
+  color: blueviolet;
+  font-size: 18px;
+  background-color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* line 21, ../../../OneDrive/Escritorio/sassreentrega/scss/_sass2.scss */
+.extend2 h2 {
+  background-color: red;
+}
+
+/* line 31, ../../../OneDrive/Escritorio/sassreentrega/scss/_sass2.scss */
+.extend2 {
+  width: 500px;
+  heigth: 500px;
+}
+
+/* line 6, ../../../OneDrive/Escritorio/sassreentrega/scss/estilos.scss */
+footer {
+  background-color: #091478;
+}
+
+/* line 8, ../../../OneDrive/Escritorio/sassreentrega/scss/estilos.scss */
+footer p {
+  color: white;
+}
+
+/* line 13, ../../../OneDrive/Escritorio/sassreentrega/scss/estilos.scss */
+ul li {
+  list-style: none;
+  color: red;
+}
+
+/* line 20, ../../../OneDrive/Escritorio/sassreentrega/scss/estilos.scss */
+section h2 {
+  color: white;
+  background-color: black;
+}
+
+/* line 23, ../../../OneDrive/Escritorio/sassreentrega/scss/estilos.scss */
+section h2 p {
+  background-color: greenyellow;
+  color: azure;
+}
+
+/*# sourceMappingURL=estilos.css.map */

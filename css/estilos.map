@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "estilos.css",
+	"sources": [
+		"../scss/estilos.scss",
+		"../scss/_variables.scss",
+		"../scss/_cabecera.scss",
+		"../scss/_sass2.scss"
+	],
+	"sourcesContent": [
+		"@import \"variables\";\r\n@import \"cabecera\";\r\n@import \"sass2\";\r\n\r\n\r\nfooter{\r\n    background-color: rgb(9, 20, 120);\r\n    p{\r\n        color: white;\r\n    }\r\n}\r\nul{\r\n    li{\r\n        list-style: none;\r\n    color: $colorlista;\r\n    }\r\n\r\n}\r\nsection{\r\n    h2{\r\n        color: white;\r\n        background-color: black;\r\n        p{\r\n            background-color: greenyellow;\r\n            color: azure;\r\n        }\r\n    }\r\n}",
+		"$colorlista:red;\r\n$font:arial,14px;",
+		"header{\r\n    h1{color: yellowgreen;\r\n    background-color: aqua;}}",
+		"$ancho:720px;\r\nheader{\r\n    width: $ancho *2;\r\n}\r\n.extend{\r\n    h2{\r\n        color: orange;\r\n        background-color: gold;\r\n        font-size: 24px;\r\n        font-family: Verdana, Geneva, Tahoma, sans-serif;\r\n        p{\r\n            color: blueviolet;\r\n            font-size: 18px;\r\n            background-color: black;\r\n            font-family: Georgia, 'Times New Roman', Times, serif;\r\n        }\r\n    }\r\n}\r\n.extend2{\r\n    @extend.extend;\r\n    h2{\r\n    background-color: red;\r\n    \r\n        \r\n    }\r\n}\r\n@mixin tamanio ($anchor,$altor){\r\nwidth:$anchor;\r\nheigth:$altor;\r\n}\r\n.extend2{\r\n    @include tamanio(500px,500px )\r\n}"
+	],
+	"names": [],
+	"mappings": ";AEAA,AACI,MADE,CACF,EAAE,CAAA;EAAC,KAAK,EAAE,WAAW;EACrB,gBAAgB,EAAE,IAAI;CAAE;;;ACD5B,AAAA,MAAM,CAAA;EACF,KAAK,EAAE,MAAS;CACnB;;;AACD,AACI,OADG,CACH,EAAE,EAaN,QAAQ,CAbJ,EAAE,CAAA;EACE,KAAK,EAAE,MAAM;EACb,gBAAgB,EAAE,IAAI;EACtB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,mCAAmC;CAOnD;;;AAZL,AAMQ,OAND,CACH,EAAE,CAKE,CAAC,EAQT,QAAQ,CAbJ,EAAE,CAKE,CAAC,CAAA;EACG,KAAK,EAAE,UAAU;EACjB,SAAS,EAAE,IAAI;EACf,gBAAgB,EAAE,KAAK;EACvB,WAAW,EAAE,wCAAwC;CACxD;;;AAGT,AAEI,QAFI,CAEJ,EAAE,CAAA;EACF,gBAAgB,EAAE,GAAG;CAGpB;;;AAML,AAAA,QAAQ,CAAA;EAHR,KAAK,EAIgB,KAAK;EAH1B,MAAM,EAGqB,KAAK;CAC/B;;;AH3BD,AAAA,MAAM,CAAA;EACF,gBAAgB,EAAE,OAAe;CAIpC;;;AALD,AAEI,MAFE,CAEF,CAAC,CAAA;EACG,KAAK,EAAE,KAAK;CACf;;;AAEL,AACI,EADF,CACE,EAAE,CAAA;EACE,UAAU,EAAE,IAAI;EACpB,KAAK,ECdG,GAAG;CDeV;;;AAGL,AACI,OADG,CACH,EAAE,CAAA;EACE,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAAE,KAAK;CAK1B;;;AARL,AAIQ,OAJD,CACH,EAAE,CAGE,CAAC,CAAA;EACG,gBAAgB,EAAE,WAAW;EAC7B,KAAK,EAAE,KAAK;CACf"
+}

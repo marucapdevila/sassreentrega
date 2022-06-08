@@ -1,0 +1,28 @@
+@import "variables";
+@import "cabecera";
+@import "sass2";
+
+
+footer{
+    background-color: rgb(9, 20, 120);
+    p{
+        color: white;
+    }
+}
+ul{
+    li{
+        list-style: none;
+    color: $colorlista;
+    }
+
+}
+section{
+    h2{
+        color: white;
+        background-color: black;
+        p{
+            background-color: greenyellow;
+            color: azure;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+$ancho:720px;
+header{
+    width: $ancho *2;
+}
+.extend{
+    h2{
+        color: orange;
+        background-color: gold;
+        font-size: 24px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        p{
+            color: blueviolet;
+            font-size: 18px;
+            background-color: black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    }
+}
+.extend2{
+    @extend.extend;
+    h2{
+    background-color: red;
+    
+        
+    }
+}
+@mixin tamanio ($anchor,$altor){
+width:$anchor;
+heigth:$altor;
+}
+.extend2{
+    @include tamanio(500px,500px )
+}
